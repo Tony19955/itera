@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 70vh;
+}
+
+.Department-Filter {
+  display: flex;
+  width: 100vw;
+}
+.Department-Filter select {
+  margin: 10px;
+}
+
+.Employee-List {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.Employee-List table {
+  width: 90vw;
+}
+.Employee-List table thead {
+  background-color: lightgray;
+}
+
+.Employee-Detail-Modal {
+  width: 25vw;
+  height: 25vh;
+  z-index: 100;
+  padding: 10px;
+  display: none;
+  text-align: left;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.Modal-Shown {
+  display: flex;
+}
+
+.Pointer {
+  cursor: pointer;
+}
+
+.Close-Button {
+  top: 0;
+  right: 10px;
+  padding: 5px;
+  font-size: 25px;
+  position: absolute;
+}
